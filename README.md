@@ -9,9 +9,18 @@ This plugin pulls the stream information from [nba-streams.xyz](http://nba-strea
 
 ## Development
 
+Make sure to:
+`pip install -r requirements.txt`
+
 The actual plugin can be found inside of the `kodi-addon` directory and any files not in that directory are used to test and debug the code that parses [nba-streams.xyz](http://nba-streams.xyz/schedule/).
 
 To debug Kodi, the log files on a Mac can be found at `/Users/{username}/Library/Logs/kodi.log`, replace {username} with your user.
+
+Verify that the plugin code works by running:
+
+`kodi-addon-checker plugin.video.nbastreams --branch=leia`
+
+NOTE: Make sure that the branch is correct for the version of kodi being used.
 
 
 ## [MACOS] Creating the zip file for the addon
