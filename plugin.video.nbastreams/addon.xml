@@ -15,7 +15,7 @@ provider-name="ninjakid">
   <disclaimer lang="en_GB">Streams are provided by nba-streams.xyz.</disclaimer>
   <assets>
     <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
+    <fanart>fanart.png</fanart>
     <screenshot>resources\screenshot-01.jpg</screenshot>
     <screenshot>resources\screenshot-02.jpg</screenshot>
     <screenshot>resources\screenshot-03.jpg</screenshot>    
