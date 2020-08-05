@@ -36,12 +36,12 @@ for nbaStream in links:
 
 
     # 12 ts in each chunk, 4 sec for each ts = 48 sec before next fetch
-    with open("./Streams/{}Stream.ts".format(nbaAbv), 'wb') as f:
-        for segment in m3u8_master.data['segments']:
-            if segment['uri'] is None:
-                break
-            url = 'http://{}.crackstreams.ga/show/{}/'.format(prefix, nbaAbv) + segment['uri']
-            r = requests.get(url)
-            f.write(r.content)
-            print('here')
+    # with open("./Streams/{}Stream.ts".format(nbaAbv), 'wb') as f:
+    #     for segment in m3u8_master.data['segments']:
+    #         if segment['uri'] is None:
+    #             break
+    #         url = 'http://{}.crackstreams.ga/show/{}/'.format(prefix, nbaAbv) + segment['uri']
+    #         r = requests.get(url)
+    #         f.write(r.content)
+    #         print('here')
 
